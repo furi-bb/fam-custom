@@ -421,3 +421,6 @@ rules page
     display: block;
     height: 2.5rem;
 }
+.etiquette-items {
+    padding-left: 2rem;
+}
