@@ -142,6 +142,7 @@ cover
     background-color: rgba(75, 75, 75, 0.5);
     border-radius: 3rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    margin: 0 1rem
 }
 
 .cover-title {
@@ -193,7 +194,7 @@ main
     flex-direction: column;
     max-width: 60em;
     padding: 2rem;
-    margin: 0 auto;
+    margin: 0 1rem;
     background-color: rgba(75, 75, 75, 0.5);
     border-radius: 3rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -220,6 +221,7 @@ about-grid
     flex-direction: column;
     justify-content: center;
 padding: 5rem 0;
+    margin: 0 1rem;
 }
 
 .about-info {
