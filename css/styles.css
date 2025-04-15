@@ -301,26 +301,23 @@ about sub-pages
 
 .about-pages-header-grid {
     display: grid;
-    margin: auto;
+    margin: 0 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
 
 
-@media (max-width: 635px) {
+@media (max-width: 680px) {
     .about-pages-header-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 465px) {
     .about-pages-header-grid {
         display: flex;
         flex-direction: column;
-    }
 
-    .about-pages-header-grid {
-        margin: 0 1rem;
     }
 }
 
