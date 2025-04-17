@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
           rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
@@ -23,7 +23,7 @@
             <div>
                 <nav class="top-nav">
                     <a class="top-nav-link" href="index.html">home</a>
-                    <a class="top-nav-link active" aria-current="page" href="about.html">about</a>
+                    <a aria-current="page" class="top-nav-link active" href="about.html">about</a>
                     <a class="top-nav-link" href="resources.html">resources</a>
                     <a class="top-nav-link" href="calendar.html">calendar</a>
                     <a class="top-nav-link" href="https://discord.gg/mrFysUW2nA" target="_blank">discord</a>
@@ -36,7 +36,7 @@
     <main class="main-content">
         <div class="about-pages-header-container">
             <div class="about-pages-header-grid">
-                <a class="about-pages-header-button active-button" href="rules.html">
+                <a class="about-pages-header-button" href="rules.html">
                     <div class="about-pages-header-button-icons">
                         <svg fill="currentColor" height="20" viewBox="0 0 16 16"
                              width="20" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
                         <h3 class="about-pages-header-button-title">Clan Fam
                             Rules</h3></div>
                 </a>
-                <a class="about-pages-header-button" href="ranks.html">
+                <a class="about-pages-header-button active-button" href="ranks.html">
                     <div class="about-pages-header-button-icons">
                         <svg fill="currentColor" height="20" viewBox="0 0 16 16"
                              width="20" xmlns="http://www.w3.org/2000/svg">
@@ -90,8 +90,8 @@
             </a>
                 <a class="about-pages-header-button" href="resources.html">
                     <div class="about-pages-header-button-icons">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                             viewBox="0 0 16 16">
+                        <svg fill="currentColor" height="20" viewBox="0 0 16 16" width="20"
+                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
                         </svg>
                     </div>
@@ -102,7 +102,7 @@
             </div>
         </div>
         <div class="rules-container">
-            <div class="rules-container-header">
+            <div class="rules-container-header ranks-header">
                 <div class="rules-container-header-title">
                     ❤️‍🔥 Clan Fam Ranking System ❤️‍🔥
                 </div>
@@ -122,20 +122,325 @@
             </div>
             <div class="ranks-container">
                 <div class="rank-item-container">
-                    <div class="rank-info-icon">
-
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="opal gem icon" class="rank-icon" src="./assets/images/Opal_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Opal
+                        </div>
                     </div>
                     <div class="rank-info-container">
-                        <div class="rank-info-title">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
                         </div>
-                        <div class="rank-info-body">
-                            <div class="rank-info-time-req">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
 
                             </div>
-                            <div class="rank-info-"></div>
                         </div>
                     </div>
                 </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="jade gem icon" class="rank-icon" src="./assets/images/Jade_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Jade
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="red topaz gem icon" class="rank-icon" src="./assets/images/Red_topaz_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Red Topaz
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="sapphire gem icon" class="rank-icon" src="./assets/images/Sapphire_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Sapphire
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="emerald gem icon" class="rank-icon" src="./assets/images/Emerald_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Emerald
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="ruby gem icon" class="rank-icon" src="./assets/images/Ruby_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Ruby
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="diamond gem icon" class="rank-icon" src="./assets/images/Diamond_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Diamond
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="dragonstone gem icon" class="rank-icon" src="./assets/images/Dragonstone_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Dragonstone
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="onyx gem icon" class="rank-icon" src="./assets/images/Onyx_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Onyx
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="zenyte gem icon" class="rank-icon" src="./assets/images/Zenyte_detail.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Zenyte
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rank-item-container">
+                    <div class="rank-item-header">
+                        <div class="rank-item-icon">
+                            <img alt="gnome child icon" class="rank-icon" src="./assets/images/Gnome_child_chathead.png">
+                        </div>
+                        <div class="rank-item-title">
+                            Gnome Child
+                        </div>
+                    </div>
+                    <div class="rank-info-container">
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Requirements
+                            </div>
+                            <div class="rank-info-section-body">
+                                Application posted on the Discord server and approved by admin
+                            </div>
+                        </div>
+                        <div class="rank-info-section">
+                            <div class="rank-info-section-title">
+                                Permissions
+                            </div>
+                            <div class="rank-info-section-body">
+                                Participate in clan chat
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 </main>

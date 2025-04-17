@@ -203,7 +203,7 @@ main
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 0.3rem solid rgba(75, 75, 75, 0.5);
-    text-shadow: rgba(0, 0, 0, 0.5) 0 0 0.6rem;
+    text-shadow: rgba(255, 193, 7, 0.7) 0 0 0.6rem;
 }
 
 .content-header-text {
@@ -321,7 +321,6 @@ about sub-pages
     }
 }
 
-
 .about-pages-header-button {
     display: flex;
     justify-content: flex-start;
@@ -335,6 +334,11 @@ about sub-pages
     box-shadow: 0 0 .6rem rgba(255, 193, 7, 0.8);
 }
 
+@media (max-width: 220px) {
+    .about-pages-header-button {
+        flex-direction: column;
+    }
+}
 .about-pages-header-button:hover {
     color: #3a3a3a;
     background-color: rgba(255, 193, 7, 0.7);
@@ -382,14 +386,13 @@ rules page
 
 .rules-item-number {
     max-width: 10rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem 0 2rem;
 }
 
 .rules-item-content {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    align-items: flex-start;
+    padding: 1rem 0;
     text-align: left;
 }
 
@@ -423,4 +426,86 @@ rules page
 }
 .etiquette-items {
     padding-left: 2rem;
+}
+
+
+/*
+ranks page
+ */
+
+.ranks-header {
+    margin-bottom: 2rem;
+}
+
+.ranks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rank-item-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.rank-item-header {
+    display: flex;
+    border-bottom: 0.3rem solid rgba(75, 75, 75, 0.5) ;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 0.8rem;
+}
+
+.rank-item-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: rgba(255, 193, 7, 0.7) 0 0 0.6rem;
+    font-weight: 600;
+}
+
+.rank-item-icon {
+}
+
+.rank-icon {
+    width: 1.5rem;
+}
+
+.rank-info-container {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.rank-info-section {
+    flex: 0 0 47%;
+    background-color: rgba(75, 75, 75, 0.2);
+    padding: 0.5rem;
+    border-radius: 0.6em;
+}
+
+.rank-info-section-title {
+    font-size: 1.2rem;
+    background-color: rgba(75, 75, 75, 0.3);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+    border-radius: 0.6rem;
+}
+
+@media (max-width: 580px) {
+    .rank-info-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+@media (max-width: 310px) {
+    .rules-container {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    .rank-item-header {
+        flex-direction: column;
+    }
 }
